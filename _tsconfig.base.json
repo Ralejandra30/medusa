@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "lib": ["ES2021"],
+    "lib": ["ES2021", "DOM", "DOM.Iterable"],
     "target": "ES2021",
     "outDir": "${configDir}/dist",
     "esModuleInterop": true,
@@ -24,5 +24,5 @@
     "incremental": false
   },
   "include": ["${configDir}/src"],
-  "exclude": ["${configDir}/dist", "${configDir}/node_modules"]
+  "exclude": ["${configDir}/dist", "${configDir}/node_modules", "${configDir}/src/**/__tests__", "${configDir}/src/**/__fixtures__", "${configDir}/src/**/__mocks__"]
 }
