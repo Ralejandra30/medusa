@@ -5,13 +5,17 @@ import {
 } from "@medusajs/framework/http"
 import { PolicyOperation } from "@medusajs/framework/utils"
 import multer from "multer"
+import { DEFAULT_UPLOAD_FILE_SIZE_LIMIT_BYTES } from "../../../utils/middlewares"
 import { Entities, retrieveUploadConfig } from "./query-config"
 import { AdminGetUploadParams, AdminUploadPreSignedUrl } from "./validators"
 
 // TODO: For now we keep the files in memory, as that's how they get passed to the workflows
 // This will need revisiting once we are closer to prod-ready v2, since with workflows and potentially
 // services on other machines using streams is not as simple as it used to be.
-const upload = multer({ storage: multer.memoryStorage() })
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: DEFAULT_UPLOAD_FILE_SIZE_LIMIT_BYTES },
+})
 
 export const adminUploadRoutesMiddlewares: MiddlewareRoute[] = [
   {

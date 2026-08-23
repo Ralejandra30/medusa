@@ -15,8 +15,8 @@ export const generateResourcePolicies = (resources: string[]) => {
         name: policyName,
         resource: resource,
         operation: operation,
-        description: `${normalizedOperation} ${normalizedResource.replace(
-          /_/g,
+        description: `${normalizedOperation} ${normalizedResource.replaceAll(
+          "_",
           " "
         )}`,
       })

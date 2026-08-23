@@ -73,7 +73,7 @@ export const createFindParams = ({
       offset: z.preprocess(
         (val) => {
           if (val && typeof val === "string") {
-            return parseInt(val)
+            return Number.parseInt(val)
           }
           return val
         },
@@ -85,7 +85,7 @@ export const createFindParams = ({
       limit: z.preprocess(
         (val) => {
           if (val && typeof val === "string") {
-            return parseInt(val)
+            return Number.parseInt(val)
           }
           return val
         },

@@ -1,3 +1,4 @@
+import path from "path"
 import { promptClaudeCodePlugin } from "../claude-code-plugin"
 import { spawnSync } from "child_process"
 import fs from "fs"
@@ -25,7 +26,13 @@ const mockConfirm = confirm as jest.MockedFunction<typeof confirm>
 const MockStore = Store as jest.MockedClass<typeof Store>
 const mockTrack = track as jest.MockedFunction<typeof track>
 
-const CLAUDE_DIR = "/mock/home/.claude"
+const MOCK_HOME = "/mock/home"
+const CLAUDE_DIR = path.join(MOCK_HOME, ".claude")
+const INSTALLED_PLUGINS_FILE = path.join(
+  CLAUDE_DIR,
+  "plugins",
+  "installed_plugins.json"
+)
 const PLUGIN_ID = "medusa-dev@medusa"
 const CONFIG_KEY = "claude-code-plugin.prompted"
 

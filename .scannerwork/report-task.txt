@@ -1,0 +1,6 @@
+projectKey=medusa-monorepo
+serverUrl=http://localhost:9001
+serverVersion=26.8.0.126808
+dashboardUrl=http://localhost:9001/dashboard?id=medusa-monorepo
+ceTaskId=6352c9bd-66f3-482c-a759-9290896573ba
+ceTaskUrl=http://localhost:9001/api/ce/task?id=6352c9bd-66f3-482c-a759-9290896573ba

@@ -25,7 +25,7 @@ export const GET = async (
 
   validateRuleType(ruleType)
 
-  const dasherizedRuleType = ruleType.split("-").join("_")
+  const dasherizedRuleType = ruleType.replaceAll("-", "_")
   const queryObject = remoteQueryObjectFromString({
     entryPoint: "promotion",
     variables: { id },
@@ -93,7 +93,7 @@ export const GET = async (
     const currentRuleAttribute = ruleAttributes.find(
       (attr) =>
         attr.value === promotionRule.attribute ||
-        attr.value === promotionRule.attribute
+        attr.id === promotionRule.attribute
     )
 
     if (!currentRuleAttribute) {

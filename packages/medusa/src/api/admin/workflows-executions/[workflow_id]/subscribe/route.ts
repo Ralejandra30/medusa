@@ -5,6 +5,7 @@ import {
 } from "@medusajs/framework/http"
 
 import { Modules } from "@medusajs/framework/utils"
+import { randomUUID } from "node:crypto"
 
 export const GET = async (
   req: AuthenticatedMedusaRequest,
@@ -16,7 +17,7 @@ export const GET = async (
 
   const { workflow_id } = req.params
 
-  const subscriberId = "__sub__" + Math.random().toString(36).substring(2, 9)
+  const subscriberId = `__sub__${randomUUID()}`
   res.writeHead(200, {
     "Content-Type": "text/event-stream",
     "Cache-Control": "no-cache",

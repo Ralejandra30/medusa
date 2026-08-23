@@ -1,0 +1,45 @@
+node_modules
+**/node_modules
+**/dist
+**/.medusa
+**/.turbo
+**/.cache
+
+.git
+.gitignore
+.yarn/cache
+.yarn/install-state.gz
+
+*.md
+LICENSE
+.eslintrc.js
+.prettierrc
+.prettierignore
+jest.config.js
+define_jest_config.js
+http-types.config.json
+
+# Test and dev files
+**/__tests__
+**/__fixtures__
+**/__mocks__
+**/*.test.ts
+**/*.test.js
+**/*.spec.ts
+**/*.spec.js
+
+# Docker files (prevent recursion)
+Dockerfile
+docker-compose.yml
+docker-compose.yaml
+.dockerignore
+
+# IDE
+.vscode
+.idea
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db

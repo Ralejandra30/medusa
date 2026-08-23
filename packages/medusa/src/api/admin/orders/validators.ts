@@ -12,7 +12,7 @@ export const AdminGetOrdersOrderParams = createSelectParams().merge(
   z.object({
     version: z.preprocess((val) => {
       if (isString(val) && val) {
-        return parseInt(val)
+        return Number.parseInt(val)
       }
       return val
     }, z.number().optional()),
@@ -29,7 +29,7 @@ export const AdminGetOrdersOrderItemsParams = createSelectParams().merge(
     item_id: z.union([z.string(), z.array(z.string())]).optional(),
     version: z.preprocess((val) => {
       if (isString(val) && val) {
-        return parseInt(val)
+        return Number.parseInt(val)
       }
       return val
     }, z.number().optional()),

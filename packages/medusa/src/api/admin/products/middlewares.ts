@@ -6,7 +6,10 @@ import { maybeApplyLinkFilter, MiddlewareRoute } from "@medusajs/framework/http"
 import { FeatureFlag, PolicyOperation } from "@medusajs/framework/utils"
 import multer from "multer"
 import IndexEngineFeatureFlag from "../../../feature-flags/index-engine"
-import { DEFAULT_BATCH_ENDPOINTS_SIZE_LIMIT } from "../../../utils/middlewares"
+import {
+  DEFAULT_BATCH_ENDPOINTS_SIZE_LIMIT,
+  DEFAULT_UPLOAD_FILE_SIZE_LIMIT_BYTES,
+} from "../../../utils/middlewares"
 import { createBatchBody } from "../../utils/validators"
 import { AdminGetProductVariantsParams } from "../product-variants/validators"
 import * as QueryConfig from "./query-config"
@@ -36,7 +39,10 @@ import {
   CreateProductVariant,
 } from "./validators"
 
-const upload = multer({ storage: multer.memoryStorage() })
+const upload = multer({
+  storage: multer.memoryStorage(),
+  limits: { fileSize: DEFAULT_UPLOAD_FILE_SIZE_LIMIT_BYTES },
+})
 
 export const adminProductRoutesMiddlewares: MiddlewareRoute[] = [
   {

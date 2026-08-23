@@ -24,7 +24,7 @@ export const AdminGetReservationsParams = createFindParams({
     line_item_id: z.union([z.string(), z.array(z.string())]).optional(),
     created_by: z.union([z.string(), z.array(z.string())]).optional(),
     description: z.union([z.string(), createOperatorMap()]).optional(),
-    quantity: createOperatorMap(z.number(), parseFloat).optional(),
+    quantity: createOperatorMap(z.number(), Number.parseFloat).optional(),
     created_at: createOperatorMap().optional(),
     updated_at: createOperatorMap().optional(),
     deleted_at: createOperatorMap().optional(),

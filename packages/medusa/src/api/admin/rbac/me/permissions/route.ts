@@ -94,7 +94,9 @@ export const GET = async (
     container: req.scope,
   })
 
-  res.status(200).json({ permissions: Array.from(granted).sort() })
+  res.status(200).json({
+    permissions: Array.from(granted).sort((a, b) => a.localeCompare(b)),
+  })
 }
 
 defineFileConfig({

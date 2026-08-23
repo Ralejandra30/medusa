@@ -4,6 +4,7 @@ import fs from "fs"
 import os from "os"
 import path from "path"
 import confirm from "@inquirer/confirm"
+import { resolveExecutablePath } from "./resolve-executable"
 
 const CLAUDE_DIR = path.join(os.homedir(), ".claude")
 const INSTALLED_PLUGINS_FILE = path.join(
@@ -35,9 +36,10 @@ function isPluginInstalled(): boolean {
 }
 
 function runInstall(): boolean {
+  const claudeCli = resolveExecutablePath("claude")
   try {
     const marketplace = spawnSync(
-      "claude",
+      claudeCli,
       ["plugin", "marketplace", "add", "medusajs/medusa-agent-skills"],
       { stdio: "inherit" }
     )
@@ -45,7 +47,7 @@ function runInstall(): boolean {
       return false
     }
 
-    const install = spawnSync("claude", ["plugin", "install", PLUGIN_ID], {
+    const install = spawnSync(claudeCli, ["plugin", "install", PLUGIN_ID], {
       stdio: "inherit",
     })
     return !install.error

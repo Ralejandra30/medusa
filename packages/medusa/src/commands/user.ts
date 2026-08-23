@@ -17,6 +17,7 @@ export default async function ({
 }) {
   track("CLI_USER", { with_id: !!id })
   const app = express()
+  app.disable("x-powered-by")
   try {
     process.env.MEDUSA_WORKER_MODE = "server"
 

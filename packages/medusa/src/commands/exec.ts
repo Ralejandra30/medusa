@@ -24,6 +24,7 @@ export default async function exec({ file, args }: Options) {
 
   logger.info(`Executing script at ${file}...`)
   const app = express()
+  app.disable("x-powered-by")
   const directory = process.cwd()
 
   try {

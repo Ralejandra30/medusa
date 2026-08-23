@@ -1,14 +1,16 @@
 import confirm from "@inquirer/confirm"
 import { spawn, spawnSync } from "child_process"
+import { resolveExecutablePath } from "../utils/resolve-executable"
 
 type McloudArgs = {
   args?: string[]
 }
 
 const MCLOUD_PACKAGE = "@medusajs/mcloud"
+const MCLOUD_CLI = resolveExecutablePath("mcloud")
 
 function isMcloudInstalled() {
-  const result = spawnSync("mcloud", ["--version"], {
+  const result = spawnSync(MCLOUD_CLI, ["--version"], {
     stdio: "ignore",
   })
 
@@ -85,7 +87,7 @@ async function installMcloud() {
 }
 
 function runMcloudProxy(args: string[]) {
-  const child = spawn("mcloud", args, {
+  const child = spawn(MCLOUD_CLI, args, {
     stdio: "inherit",
     shell: process.platform === "win32",
   })

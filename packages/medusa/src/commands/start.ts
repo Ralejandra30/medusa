@@ -35,15 +35,15 @@ const EVERY_SIXTH_HOUR = "0 */6 * * *"
 const CRON_SCHEDULE = EVERY_SIXTH_HOUR
 const INSTRUMENTATION_FILE = "instrumentation"
 
-function parseValueOrPercentage(value: string, base: number): number {
+export function parseValueOrPercentage(value: string, base: number): number {
   if (typeof value !== "string") {
     throw new Error(`Invalid value: ${value}. Must be a string.`)
   }
 
   const trimmed = value.trim()
   if (trimmed.endsWith("%")) {
-    const percent = parseFloat(trimmed.slice(0, -1))
-    if (isNaN(percent)) {
+    const percent = Number.parseFloat(trimmed.slice(0, -1))
+    if (Number.isNaN(percent)) {
       throw new Error(`Invalid percentage: ${value}`)
     }
     if (percent < 0 || percent > 100) {
@@ -51,8 +51,8 @@ function parseValueOrPercentage(value: string, base: number): number {
     }
     return Math.round((percent / 100) * base)
   } else {
-    const num = parseInt(trimmed, 10)
-    if (isNaN(num) || num < 0) {
+    const num = Number.parseInt(trimmed, 10)
+    if (Number.isNaN(num) || num < 0) {
       throw new Error(
         `Invalid number: ${value}. Must be a non-negative integer.`
       )
@@ -102,8 +102,11 @@ export async function registerInstrumentation(directory: string) {
  * Wrap request handler inside custom implementation to enabled
  * instrumentation.
  */
-// eslint-disable-next-line no-var
-export var traceRequestHandler: (...args: any[]) => Promise<any> = void 0 as any
+export const requestHandlerTracing: {
+  handler: ((...args: any[]) => Promise<any>) | undefined
+} = {
+  handler: undefined,
+}
 
 function displayAdminUrl({
   host,
@@ -244,11 +247,13 @@ async function start(args: {
     await registerInstrumentation(directory)
 
     const app = express()
+    app.disable("x-powered-by")
 
     const http_ = http.createServer(async (req, res) => {
       const stack = app._router.stack
       await new Promise((resolve) => {
         res.on("finish", resolve)
+        const traceRequestHandler = requestHandlerTracing.handler
         if (traceRequestHandler) {
           const expressHandlerPath = findExpressRoutePath({
             stack,

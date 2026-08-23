@@ -30,7 +30,7 @@ export function instrumentHttpLayer() {
   const startCommand = require("../commands/start")
   const HTTPTracer = new Tracer("@medusajs/http", "2.0.0")
 
-  startCommand.traceRequestHandler = async (
+  startCommand.requestHandlerTracing.handler = async (
     requestHandler,
     req,
     res,

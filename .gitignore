@@ -35,3 +35,11 @@ dist/**
 
 .cursorignore
 **/.medusa
+
+# Temporales y cachés de SonarQube
+.scannerwork/
+.sonar/
+.sonartmp/
+
+# Cobertura de pruebas de Jest
+**/coverage/

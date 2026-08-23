@@ -1,0 +1,41 @@
+services:
+  # ── PostgreSQL ──────────────────────────────────────────────
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: medusa
+      POSTGRES_PASSWORD: medusa
+      POSTGRES_DB: medusa
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U medusa"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # ── Medusa Server ──────────────────────────────────────────
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "9000:9000"
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      NODE_ENV: production
+      PORT: "9000"
+      DATABASE_URL: "postgres://medusa:medusa@db:5432/medusa"
+      JWT_SECRET: "supersecret"
+      COOKIE_SECRET: "supersecret"
+      STORE_CORS: "http://localhost:8000"
+      ADMIN_CORS: "http://localhost:7001"
+    restart: unless-stopped
+
+volumes:
+  pgdata:

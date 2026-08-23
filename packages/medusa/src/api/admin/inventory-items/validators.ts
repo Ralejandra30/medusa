@@ -23,10 +23,10 @@ export const AdminGetInventoryItemsParamsFields = z.object({
   hs_code: z.union([z.string(), z.array(z.string())]).optional(),
   material: z.union([z.string(), z.array(z.string())]).optional(),
   requires_shipping: booleanString().optional(),
-  weight: createOperatorMap(z.number(), parseFloat).optional(),
-  length: createOperatorMap(z.number(), parseFloat).optional(),
-  height: createOperatorMap(z.number(), parseFloat).optional(),
-  width: createOperatorMap(z.number(), parseFloat).optional(),
+  weight: createOperatorMap(z.number(), Number.parseFloat).optional(),
+  length: createOperatorMap(z.number(), Number.parseFloat).optional(),
+  height: createOperatorMap(z.number(), Number.parseFloat).optional(),
+  width: createOperatorMap(z.number(), Number.parseFloat).optional(),
   location_levels: z
     .object({
       location_id: z.union([z.string(), z.array(z.string())]).optional(),

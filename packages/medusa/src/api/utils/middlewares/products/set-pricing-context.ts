@@ -64,7 +64,7 @@ export function setPricingContext(options: PricingContextOptions = {}) {
       })
 
       pricingContext.customer = { groups: [] }
-      customerGroups.map((cg) =>
+      customerGroups.forEach((cg) =>
         pricingContext.customer?.groups?.push({ id: cg.id })
       )
     }
