@@ -1,0 +1,2211 @@
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 111 dependencies for known issues, found 1 issue, 2 vulnerable paths.
+
+
+Issues with no direct upgrade or patch:
+  Ô£ù Inefficient Algorithmic Complexity [High Severity][https://security.snyk.io/vuln/SNYK-JS-JSYAML-18593780] in js-yaml@4.3.0
+    introduced by @changesets/cli@2.29.8 > @changesets/apply-release-plan@7.0.14 > @changesets/config@3.1.2 > @changesets/get-dependents-graph@2.1.3 > @manypkg/get-packages@1.1.3 > read-yaml-file@1.1.0 > js-yaml@3.15.0 and 1 other path(s)
+  This issue was fixed in versions: 3.15.1, 4.3.1
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       package.json
+Project name:      root
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 613 dependencies for known issues, found 26 issues, 70 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @medusajs/dashboard@2.18.0 to @medusajs/dashboard@2.19.0 to fix
+  Ô£ù Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-REACTROUTER-18313130] in react-router@6.30.4
+    introduced by @medusajs/dashboard@2.18.0 > react-router-dom@6.30.4 > react-router@6.30.4
+  Ô£ù Open Redirect (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-REACTROUTER-18313144] in react-router@6.30.4
+    introduced by @medusajs/dashboard@2.18.0 > react-router-dom@6.30.4 > react-router@6.30.4
+
+  Upgrade express@4.22.1 to express@4.22.2 to fix
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 1 other path(s)
+
+  Upgrade postcss@8.5.10 to postcss@8.5.23 to fix
+  Ô£ù Directory Traversal (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18512282] in postcss@8.5.10
+    introduced by postcss@8.5.10 and 2 other path(s)
+  Ô£ù Directory Traversal (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18313038] in postcss@8.5.10
+    introduced by postcss@8.5.10 and 2 other path(s)
+  Ô£ù Directory Traversal (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18313036] in postcss@8.5.10
+    introduced by postcss@8.5.10 and 2 other path(s)
+
+  Upgrade vite@5.4.21 to vite@7.3.6 to fix
+  Ô£ù Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-VITE-15922213] in vite@5.4.21
+    introduced by vite@5.4.21
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-VITE-17353904] in vite@5.4.21
+    introduced by vite@5.4.21
+  Ô£ù Resources Downloaded over Insecure Protocol [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-ESBUILD-17750822] in esbuild@0.25.12
+    introduced by vite@5.4.21 > esbuild@0.25.12
+
+
+Issues with no direct upgrade or patch:
+  Ô£ù Directory Traversal [Low Severity][https://security.snyk.io/vuln/SNYK-JS-BABELCORE-17342497] in @babel/core@7.28.5
+    introduced by @vitejs/plugin-react@4.7.0 > @babel/core@7.28.5
+  This issue was fixed in versions: 7.29.6, 8.0.0-rc.6
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by express@4.22.1 > body-parser@1.20.4
+  This issue was fixed in versions: 1.20.6, 2.3.0
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-16755174] in brace-expansion@5.0.5
+    introduced by glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5 and 4 other path(s)
+  This issue was fixed in versions: 5.0.6
+  Ô£ù Inefficient Algorithmic Complexity [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-17706650] in brace-expansion@5.0.5
+    introduced by glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5 and 4 other path(s)
+  This issue was fixed in versions: 1.1.16, 2.1.2, 5.0.7
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18313044] in brace-expansion@5.0.5
+    introduced by glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5 and 4 other path(s)
+  This issue was fixed in versions: 1.1.16, 2.1.2, 5.0.8
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18512280] in brace-expansion@5.0.5
+    introduced by glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5 and 4 other path(s)
+  This issue was fixed in versions: 1.1.18, 2.1.4, 3.0.6, 5.0.9
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-18854715] in browserslist@4.28.1
+    introduced by autoprefixer@10.4.23 > browserslist@4.28.1 and 1 other path(s)
+  This issue was fixed in versions: 4.28.7
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-18856271] in browserslist@4.28.1
+    introduced by autoprefixer@10.4.23 > browserslist@4.28.1 and 1 other path(s)
+  This issue was fixed in versions: 4.28.7
+  Ô£ù Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-16636412] in ip-address@10.1.0
+    introduced by vite@5.4.21 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  This issue was fixed in versions: 10.1.1
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-18516623] in ip-address@10.1.0
+    introduced by vite@5.4.21 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  This issue was fixed in versions: 10.3.1
+  Ô£ù Infinite loop [High Severity][https://security.snyk.io/vuln/SNYK-JS-NANOID-18506894] in nanoid@3.3.11
+    introduced by postcss@8.5.10 > nanoid@3.3.11 and 2 other path(s)
+  This issue was fixed in versions: 3.3.16, 5.1.16
+  Ô£ù Infinite loop [High Severity][https://security.snyk.io/vuln/SNYK-JS-NANOID-18506897] in nanoid@3.3.11
+    introduced by postcss@8.5.10 > nanoid@3.3.11 and 2 other path(s)
+  This issue was fixed in versions: 3.3.17, 5.1.6
+  Ô£ù Integer Overflow or Wraparound [High Severity][https://security.snyk.io/vuln/SNYK-JS-NANOID-18748186] in nanoid@3.3.11
+    introduced by postcss@8.5.10 > nanoid@3.3.11 and 2 other path(s)
+  This issue was fixed in versions: 3.3.12, 5.1.11
+  Ô£ù Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765511] in picomatch@4.0.3
+    introduced by vite@5.4.21 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+  This issue was fixed in versions: 2.3.2, 3.0.2, 4.0.4
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765513] in picomatch@4.0.3
+    introduced by vite@5.4.21 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+  This issue was fixed in versions: 2.3.2, 3.0.2, 4.0.4
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSSSELECTORPARSER-16873882] in postcss-selector-parser@6.1.2
+    introduced by tailwindcss@3.4.19 > postcss-selector-parser@6.1.2 and 1 other path(s)
+  This issue was fixed in versions: 6.1.3, 7.1.2
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-ROLLUP-15340920] in rollup@4.53.4
+    introduced by vite@5.4.21 > rollup@4.53.4
+  This issue was fixed in versions: 2.80.0, 3.30.0, 4.59.0
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\admin\admin-bundler\package.json
+Project name:      @medusajs/admin-bundler
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\core-flows\package.json
+Project name:      @medusajs/core-flows
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 4 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 457 dependencies for known issues, found 45 issues, 111 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @medusajs/modules-sdk@0.0.0-use.local to @medusajs/modules-sdk@0.0.1 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by express@4.22.1 > body-parser@1.20.4 and 5 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 11 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+
+  Upgrade @medusajs/orchestration@0.0.0-use.local to @medusajs/orchestration@0.0.2 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by express@4.22.1 > body-parser@1.20.4 and 5 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 11 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+
+  Upgrade @medusajs/telemetry@0.0.0-use.local to @medusajs/telemetry@2.11.3 to fix
+  Ô£ù Unintended Proxy or Intermediary ('Confused Deputy') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15965856] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Improper Encoding or Escaping of Output [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298055] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298095] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298130] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298162] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299478] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299819] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299925] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111081] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172532] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172751] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172930] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060165] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060167] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060659] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060730] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060804] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065349] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065351] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065353] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065355] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FORMDATA-17337015] in form-data@4.0.5
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 > form-data@4.0.5
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15252993] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù HTTP Response Splitting [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15969258] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Improperly Controlled Modification of Dynamically-Determined Object Attributes [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299921] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299923] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111060] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111062] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111079] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172681] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Improper Removal of Sensitive Information Before Storage or Transfer [High Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-16032162] in follow-redirects@1.15.11
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 > follow-redirects@1.15.11
+  Ô£ù HTTP Response Splitting [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298058] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299904] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2
+
+  Upgrade @medusajs/utils@0.0.0-use.local to @medusajs/utils@0.0.1 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by express@4.22.1 > body-parser@1.20.4 and 5 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 11 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+
+  Upgrade @medusajs/workflows-sdk@0.0.0-use.local to @medusajs/workflows-sdk@0.1.0 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by express@4.22.1 > body-parser@1.20.4 and 5 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 11 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 10 other path(s)
+
+  Upgrade express@4.22.1 to express@4.22.2 to fix
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 11 other path(s)
+
+
+Issues with no direct upgrade or patch:
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-16755174] in brace-expansion@5.0.5
+    introduced by glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 5.0.6
+  Ô£ù Inefficient Algorithmic Complexity [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-17706650] in brace-expansion@5.0.5
+    introduced by glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.16, 2.1.2, 5.0.7
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18313044] in brace-expansion@5.0.5
+    introduced by glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.16, 2.1.2, 5.0.8
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18512280] in brace-expansion@5.0.5
+    introduced by glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.18, 2.1.4, 3.0.6, 5.0.9
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\framework\package.json
+Project name:      @medusajs/framework
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\js-sdk\package.json
+Project name:      @medusajs/js-sdk
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 23 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 349 dependencies for known issues, found 7 issues, 26 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @medusajs/query@0.0.0-use.local to @medusajs/query@2.17.2 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > body-parser@1.20.4 and 1 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > qs@6.14.2 and 3 other path(s)
+
+  Upgrade @medusajs/utils@0.0.0-use.local to @medusajs/utils@0.0.1 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > body-parser@1.20.4 and 1 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > qs@6.14.2 and 3 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 3 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 3 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 3 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 3 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 3 other path(s)
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\modules-sdk\package.json
+Project name:      @medusajs/modules-sdk
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 348 dependencies for known issues, found 7 issues, 13 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @medusajs/utils@0.0.0-use.local to @medusajs/utils@0.0.1 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > body-parser@1.20.4
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > qs@6.14.2 and 1 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\orchestration\package.json
+Project name:      @medusajs/orchestration
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 348 dependencies for known issues, found 7 issues, 13 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @medusajs/utils@0.0.0-use.local to @medusajs/utils@0.0.1 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > body-parser@1.20.4
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > qs@6.14.2 and 1 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 1 other path(s)
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\query\package.json
+Project name:      @medusajs/query
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\types\package.json
+Project name:      @medusajs/types
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 1 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 276 dependencies for known issues, found 5 issues, 5 vulnerable paths.
+
+
+Issues with no direct upgrade or patch:
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  This issue was fixed in versions: 2.4.1, 3.1.2
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  This issue was fixed in versions: 2.4.1, 3.1.1
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  This issue was fixed in versions: 2.4.2, 3.1.3, 4.0.1
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  This issue was fixed in versions: 2.4.3, 3.1.4, 4.1.1
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  This issue was fixed in versions: 2.4.4, 3.1.5, 4.1.2
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\utils\package.json
+Project name:      @medusajs/utils
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 351 dependencies for known issues, found 7 issues, 39 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @medusajs/modules-sdk@0.0.0-use.local to @medusajs/modules-sdk@0.0.1 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > body-parser@1.20.4 and 2 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > qs@6.14.2 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+
+  Upgrade @medusajs/orchestration@0.0.0-use.local to @medusajs/orchestration@0.0.2 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > body-parser@1.20.4 and 2 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > qs@6.14.2 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+
+  Upgrade @medusajs/utils@0.0.0-use.local to @medusajs/utils@0.0.1 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > body-parser@1.20.4 and 2 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by @medusajs/utils@0.0.0-use.local > express@4.22.1 > qs@6.14.2 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0 and 5 other path(s)
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\core\workflows-sdk\package.json
+Project name:      @medusajs/workflows-sdk
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 202 dependencies for known issues, found 5 issues, 5 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @mikro-orm/migrations@6.6.14 to @mikro-orm/migrations@7.0.0 to fix
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\deps\package.json
+Project name:      @medusajs/deps
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 1166 dependencies for known issues, found 66 issues, 195 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade @medusajs/admin-bundler@0.0.0-use.local to @medusajs/admin-bundler@2.19.0 to fix
+  Ô£ù Directory Traversal [Low Severity][https://security.snyk.io/vuln/SNYK-JS-BABELCORE-17342497] in @babel/core@7.28.5
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @vitejs/plugin-react@4.7.0 > @babel/core@7.28.5
+  Ô£ù Directory Traversal [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-VITE-15922213] in vite@5.4.21
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > vite@5.4.21
+  Ô£ù Directory Traversal (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18512282] in postcss@8.5.10
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > postcss@8.5.10 and 2 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by express@4.22.1 > body-parser@1.20.4 and 2 other path(s)
+  Ô£ù Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-16636412] in ip-address@10.1.0
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-18516623] in ip-address@10.1.0
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765513] in picomatch@4.0.3
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSSSELECTORPARSER-16873882] in postcss-selector-parser@6.1.2
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > tailwindcss@3.4.19 > postcss-selector-parser@6.1.2 and 1 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 5 other path(s)
+  Ô£ù Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-REACTROUTER-18313130] in react-router@6.30.4
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/dashboard@2.18.0 > react-router-dom@6.30.4 > react-router@6.30.4 and 1 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-VITE-17353904] in vite@5.4.21
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > vite@5.4.21
+  Ô£ù Directory Traversal (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18313036] in postcss@8.5.10
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > postcss@8.5.10 and 2 other path(s)
+  Ô£ù Directory Traversal (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18313038] in postcss@8.5.10
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > postcss@8.5.10 and 2 other path(s)
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-ROLLUP-15340920] in rollup@4.53.4
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > vite@5.4.21 > rollup@4.53.4
+  Ô£ù Prototype Pollution (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-18854715] in browserslist@4.28.1
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > autoprefixer@10.4.23 > browserslist@4.28.1 and 1 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-BROWSERSLIST-18856271] in browserslist@4.28.1
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > autoprefixer@10.4.23 > browserslist@4.28.1 and 1 other path(s)
+  Ô£ù Infinite loop (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-NANOID-18506894] in nanoid@3.3.11
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > postcss@8.5.10 > nanoid@3.3.11
+  Ô£ù Infinite loop (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-NANOID-18506897] in nanoid@3.3.11
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > postcss@8.5.10 > nanoid@3.3.11
+  Ô£ù Integer Overflow or Wraparound (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-NANOID-18748186] in nanoid@3.3.11
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > postcss@8.5.10 > nanoid@3.3.11
+  Ô£ù Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765511] in picomatch@4.0.3
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+  Ô£ù Open Redirect (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-REACTROUTER-18313144] in react-router@6.30.4
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/dashboard@2.18.0 > react-router-dom@6.30.4 > react-router@6.30.4 and 1 other path(s)
+  Ô£ù Resources Downloaded over Insecure Protocol [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-ESBUILD-17750822] in esbuild@0.25.12
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > vite@5.4.21 > esbuild@0.25.12
+
+  Upgrade @medusajs/draft-order@0.0.0-use.local to @medusajs/draft-order@0.0.1 to fix
+  Ô£ù Unintended Proxy or Intermediary ('Confused Deputy') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15965856] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Improper Encoding or Escaping of Output [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298055] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298095] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298130] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298162] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299478] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299819] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299925] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111081] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172532] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172751] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172930] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060165] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060167] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060659] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060730] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060804] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065349] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065351] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065353] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065355] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-BODYPARSER-17906397] in body-parser@1.20.4
+    introduced by express@4.22.1 > body-parser@1.20.4 and 2 other path(s)
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FORMDATA-17337015] in form-data@4.0.5
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 > form-data@4.0.5 and 1 other path(s)
+  Ô£ù Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-16636412] in ip-address@10.1.0
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-18516623] in ip-address@10.1.0
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765513] in picomatch@4.0.3
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 5 other path(s)
+  Ô£ù Use of Externally-Controlled Input to Select Classes or Code ('Unsafe Reflection') (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-REACTROUTER-18313130] in react-router@6.30.4
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/dashboard@2.18.0 > react-router-dom@6.30.4 > react-router@6.30.4 and 1 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15252993] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù HTTP Response Splitting [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15969258] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Improperly Controlled Modification of Dynamically-Determined Object Attributes [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299921] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299923] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111060] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111062] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111079] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172681] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-16755174] in brace-expansion@5.0.5
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5
+  Ô£ù Inefficient Algorithmic Complexity [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-17706650] in brace-expansion@5.0.5
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5
+  Ô£ù Allocation of Resources Without Limits or Throttling (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18313044] in brace-expansion@5.0.5
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5
+  Ô£ù Allocation of Resources Without Limits or Throttling (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18512280] in brace-expansion@5.0.5
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > glob@13.0.6 > minimatch@10.2.5 > brace-expansion@5.0.5
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642394] in fast-uri@3.1.0
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Directory Traversal [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-16642399] in fast-uri@3.1.0
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-17675102] in fast-uri@3.1.0
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Interpretation Conflict [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18021349] in fast-uri@3.1.0
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Interpretation Conflict (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-FASTURI-18506908] in fast-uri@3.1.0
+    introduced by @medusajs/draft-order@0.0.0-use.local > @medusajs/cli@2.18.0 > @medusajs/deps@0.0.0-use.local > @mikro-orm/migrations@6.6.14 > umzug@3.8.2 > @rushstack/ts-command-line@4.23.7 > @rushstack/terminal@0.15.2 > @rushstack/node-core-library@5.13.0 > ajv@8.20.0 > fast-uri@3.1.0
+  Ô£ù Improper Removal of Sensitive Information Before Storage or Transfer [High Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-16032162] in follow-redirects@1.15.11
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 > follow-redirects@1.15.11 and 1 other path(s)
+  Ô£ù Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765511] in picomatch@4.0.3
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+  Ô£ù Open Redirect (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-REACTROUTER-18313144] in react-router@6.30.4
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/dashboard@2.18.0 > react-router-dom@6.30.4 > react-router@6.30.4 and 1 other path(s)
+  Ô£ù HTTP Response Splitting [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298058] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299904] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+
+  Upgrade @medusajs/event-bus-redis@0.0.0-use.local to @medusajs/event-bus-redis@1.8.12 to fix
+  Ô£ù Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-16636412] in ip-address@10.1.0
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-18516623] in ip-address@10.1.0
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765513] in picomatch@4.0.3
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+  Ô£ù Improper Validation of Specified Index, Position, or Offset in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-UUID-16133035] in uuid@9.0.1
+    introduced by @medusajs/event-bus-redis@0.0.0-use.local > bullmq@5.13.0 > uuid@9.0.1 and 1 other path(s)
+  Ô£ù Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765511] in picomatch@4.0.3
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+
+  Upgrade @medusajs/notification-sendgrid@0.0.0-use.local to @medusajs/notification-sendgrid@0.0.1 to fix
+  Ô£ù Unintended Proxy or Intermediary ('Confused Deputy') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15965856] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Improper Encoding or Escaping of Output [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298055] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298095] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298130] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298162] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299478] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299819] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299925] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111081] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172532] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172751] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172930] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060165] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060167] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060659] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060730] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060804] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065349] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065351] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065353] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065355] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15252993] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù HTTP Response Splitting [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15969258] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Improperly Controlled Modification of Dynamically-Determined Object Attributes [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299921] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299923] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111060] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111062] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111079] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172681] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù HTTP Response Splitting [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298058] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299904] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+
+  Upgrade @medusajs/telemetry@0.0.0-use.local to @medusajs/telemetry@2.11.3 to fix
+  Ô£ù Unintended Proxy or Intermediary ('Confused Deputy') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15965856] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Improper Encoding or Escaping of Output [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298055] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298095] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298130] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298162] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299478] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299819] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299925] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111081] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172532] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172751] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172930] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060165] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060167] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060659] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060730] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060804] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065349] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065351] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065353] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065355] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FORMDATA-17337015] in form-data@4.0.5
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 > form-data@4.0.5 and 1 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15252993] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù HTTP Response Splitting [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15969258] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Improperly Controlled Modification of Dynamically-Determined Object Attributes [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299921] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299923] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111060] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111062] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111079] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172681] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Improper Removal of Sensitive Information Before Storage or Transfer [High Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-16032162] in follow-redirects@1.15.11
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 > follow-redirects@1.15.11 and 1 other path(s)
+  Ô£ù HTTP Response Splitting [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298058] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299904] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750] in axios@1.13.2
+    introduced by @medusajs/telemetry@0.0.0-use.local > axios@1.13.2 and 3 other path(s)
+
+  Upgrade @medusajs/workflow-engine-redis@0.0.0-use.local to @medusajs/workflow-engine-redis@0.0.2 to fix
+  Ô£ù Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-16636412] in ip-address@10.1.0
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  Ô£ù Server-side Request Forgery (SSRF) (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-18516623] in ip-address@10.1.0
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0 and 3 other path(s)
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765513] in picomatch@4.0.3
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+  Ô£ù Improper Validation of Specified Index, Position, or Offset in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-UUID-16133035] in uuid@9.0.1
+    introduced by @medusajs/event-bus-redis@0.0.0-use.local > bullmq@5.13.0 > uuid@9.0.1 and 1 other path(s)
+  Ô£ù Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765511] in picomatch@4.0.3
+    introduced by @medusajs/admin-bundler@0.0.0-use.local > @medusajs/admin-vite-plugin@2.18.0 > chokidar@3.6.0 > fsevents@2.3.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3 and 3 other path(s)
+
+  Upgrade express@4.22.1 to express@4.22.2 to fix
+  Ô£ù NULL Pointer Dereference [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-QS-16721866] in qs@6.14.2
+    introduced by express@4.22.1 > qs@6.14.2 and 5 other path(s)
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\medusa\package.json
+Project name:      @medusajs/medusa
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 65 dependencies for known issues, found 34 issues, 34 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade axios@1.13.2 to axios@1.18.0 to fix
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060165] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060167] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060659] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060730] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060804] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065349] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065351] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065353] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065355] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111081] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172532] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172751] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172930] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Improper Encoding or Escaping of Output [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298055] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298095] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298130] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298162] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299478] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299819] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299925] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Unintended Proxy or Intermediary ('Confused Deputy') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15965856] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111062] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111079] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172681] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Improperly Controlled Modification of Dynamically-Determined Object Attributes [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299921] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111060] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299923] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù HTTP Response Splitting [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15969258] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15252993] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù HTTP Response Splitting [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298058] in axios@1.13.2
+    introduced by axios@1.13.2
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299904] in axios@1.13.2
+    introduced by axios@1.13.2
+
+
+Issues with no direct upgrade or patch:
+  Ô£ù Improper Removal of Sensitive Information Before Storage or Transfer [High Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-16032162] in follow-redirects@1.15.11
+    introduced by axios@1.13.2 > follow-redirects@1.15.11
+  This issue was fixed in versions: 1.16.0
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FORMDATA-17337015] in form-data@4.0.5
+    introduced by axios@1.13.2 > form-data@4.0.5
+  This issue was fixed in versions: 2.5.6, 3.0.5, 4.0.6
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\medusa-telemetry\package.json
+Project name:      @medusajs/telemetry
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\analytics\package.json
+Project name:      @medusajs/analytics
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\api-key\package.json
+Project name:      @medusajs/api-key
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\auth\package.json
+Project name:      @medusajs/auth
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 33 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\cache-inmemory\package.json
+Project name:      @medusajs/cache-inmemory
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\cache-redis\package.json
+Project name:      @medusajs/cache-redis
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 11 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\caching\package.json
+Project name:      @medusajs/caching
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 4 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\cart\package.json
+Project name:      @medusajs/cart
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\currency\package.json
+Project name:      @medusajs/currency
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\customer\package.json
+Project name:      @medusajs/customer
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\event-bus-local\package.json
+Project name:      @medusajs/event-bus-local
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 84 dependencies for known issues, found 9 issues, 9 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade bullmq@5.13.0 to bullmq@5.58.6 to fix
+  Ô£ù Improper Validation of Specified Index, Position, or Offset in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-UUID-16133035] in uuid@9.0.1
+    introduced by bullmq@5.13.0 > uuid@9.0.1
+
+
+Issues with no direct upgrade or patch:
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-16755174] in brace-expansion@5.0.5
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > cacache@20.0.3 > glob@13.0.0 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 5.0.6
+  Ô£ù Inefficient Algorithmic Complexity [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-17706650] in brace-expansion@5.0.5
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > cacache@20.0.3 > glob@13.0.0 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.16, 2.1.2, 5.0.7
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18313044] in brace-expansion@5.0.5
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > cacache@20.0.3 > glob@13.0.0 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.16, 2.1.2, 5.0.8
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18512280] in brace-expansion@5.0.5
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > cacache@20.0.3 > glob@13.0.0 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.18, 2.1.4, 3.0.6, 5.0.9
+  Ô£ù Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-16636412] in ip-address@10.1.0
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0
+  This issue was fixed in versions: 10.1.1
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-18516623] in ip-address@10.1.0
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0
+  This issue was fixed in versions: 10.3.1
+  Ô£ù Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765511] in picomatch@4.0.3
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3
+  This issue was fixed in versions: 2.3.2, 3.0.2, 4.0.4
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765513] in picomatch@4.0.3
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3
+  This issue was fixed in versions: 2.3.2, 3.0.2, 4.0.4
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\event-bus-redis\package.json
+Project name:      @medusajs/event-bus-redis
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\file\package.json
+Project name:      @medusajs/file
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\fulfillment\package.json
+Project name:      @medusajs/fulfillment
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\index\package.json
+Project name:      @medusajs/index
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\inventory\package.json
+Project name:      @medusajs/inventory
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\link-modules\package.json
+Project name:      @medusajs/link-modules
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\locking\package.json
+Project name:      @medusajs/locking
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\notification\package.json
+Project name:      @medusajs/notification
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\order\package.json
+Project name:      @medusajs/order
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\payment\package.json
+Project name:      @medusajs/payment
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 23 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\pricing\package.json
+Project name:      @medusajs/pricing
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\product\package.json
+Project name:      @medusajs/product
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\promotion\package.json
+Project name:      @medusajs/promotion
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\analytics-local\package.json
+Project name:      @medusajs/analytics-local
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\analytics-posthog\package.json
+Project name:      @medusajs/analytics-posthog
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\auth-emailpass\package.json
+Project name:      @medusajs/auth-emailpass
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 1 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\auth-github\package.json
+Project name:      @medusajs/auth-github
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\auth-google\package.json
+Project name:      @medusajs/auth-google
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 27 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\caching-redis\package.json
+Project name:      @medusajs/caching-redis
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 12 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\file-local\package.json
+Project name:      @medusajs/file-local
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\file-s3\package.json
+Project name:      @medusajs/file-s3
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 39 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\fulfillment-manual\package.json
+Project name:      @medusajs/fulfillment-manual
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\locking-postgres\package.json
+Project name:      @medusajs/locking-postgres
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\locking-redis\package.json
+Project name:      @medusajs/locking-redis
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 11 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\notification-local\package.json
+Project name:      @medusajs/notification-local
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 30 dependencies for known issues, found 34 issues, 34 vulnerable paths.
+
+
+Issues with no direct upgrade or patch:
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15252993] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.30.3, 1.13.5
+  Ô£ù Unintended Proxy or Intermediary ('Confused Deputy') [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15965856] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.0, 1.15.0
+  Ô£ù HTTP Response Splitting [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-15969258] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.0, 1.15.0
+  Ô£ù Improper Encoding or Escaping of Output [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298055] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù HTTP Response Splitting [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298058] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298095] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298130] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16298162] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299478] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299819] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 1.15.1
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299904] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù Improperly Controlled Modification of Dynamically-Determined Object Attributes [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299921] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 1.15.2
+  Ô£ù Uncontrolled Recursion [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299923] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16299925] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.1
+  Ô£ù Prototype Pollution [Critical Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-16417750] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 1.15.2
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111060] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.31.1, 1.15.2
+  Ô£ù Server-side Request Forgery (SSRF) [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111062] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.32.0, 1.16.0
+  Ô£ù Prototype Pollution [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111079] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.32.0, 1.16.0
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17111081] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.32.0, 1.16.0
+  Ô£ù Regular Expression Denial of Service (ReDoS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172532] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.32.0, 1.16.0
+  Ô£ù Insertion of Sensitive Information Into Sent Data [High Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172681] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.32.0, 1.16.0
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172751] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 1.16.0
+  Ô£ù Insertion of Sensitive Information Into Sent Data [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-17172930] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.32.0, 1.16.0
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060165] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.33.0, 1.18.0
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060167] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.33.0, 1.18.0
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060659] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 1.18.0
+  Ô£ù Uncontrolled Recursion [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060730] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.33.0, 1.18.0
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18060804] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 1.18.0
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065349] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.33.0, 1.18.0
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065351] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.33.0, 1.18.0
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065353] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 1.18.0
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-AXIOS-18065355] in axios@1.13.2
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2
+  This issue was fixed in versions: 0.33.0, 1.18.0
+  Ô£ù Improper Removal of Sensitive Information Before Storage or Transfer [High Severity][https://security.snyk.io/vuln/SNYK-JS-FOLLOWREDIRECTS-16032162] in follow-redirects@1.15.11
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2 > follow-redirects@1.15.11
+  This issue was fixed in versions: 1.16.0
+  Ô£ù CRLF Injection [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-FORMDATA-17337015] in form-data@4.0.5
+    introduced by @sendgrid/mail@8.1.6 > @sendgrid/client@8.1.6 > axios@1.13.2 > form-data@4.0.5
+  This issue was fixed in versions: 2.5.6, 3.0.5, 4.0.6
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\notification-sendgrid\package.json
+Project name:      @medusajs/notification-sendgrid
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\payment-stripe\package.json
+Project name:      @medusajs/payment-stripe
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 25 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\providers\search-local\package.json
+Project name:      @medusajs/search-local
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 1 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\rbac\package.json
+Project name:      @medusajs/rbac
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\region\package.json
+Project name:      @medusajs/region
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\sales-channel\package.json
+Project name:      @medusajs/sales-channel
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\search\package.json
+Project name:      @medusajs/search
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\settings\package.json
+Project name:      @medusajs/settings
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\stock-location\package.json
+Project name:      @medusajs/stock-location
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\store\package.json
+Project name:      @medusajs/store
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\tax\package.json
+Project name:      @medusajs/tax
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\translation\package.json
+Project name:      @medusajs/translation
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\user\package.json
+Project name:      @medusajs/user
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 15 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\workflow-engine-inmemory\package.json
+Project name:      @medusajs/workflow-engine-inmemory
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 3 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 85 dependencies for known issues, found 9 issues, 9 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade bullmq@5.13.0 to bullmq@5.58.6 to fix
+  Ô£ù Improper Validation of Specified Index, Position, or Offset in Input [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-UUID-16133035] in uuid@9.0.1
+    introduced by bullmq@5.13.0 > uuid@9.0.1
+
+
+Issues with no direct upgrade or patch:
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-16755174] in brace-expansion@5.0.5
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > cacache@20.0.3 > glob@13.0.0 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 5.0.6
+  Ô£ù Inefficient Algorithmic Complexity [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-17706650] in brace-expansion@5.0.5
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > cacache@20.0.3 > glob@13.0.0 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.16, 2.1.2, 5.0.7
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18313044] in brace-expansion@5.0.5
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > cacache@20.0.3 > glob@13.0.0 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.16, 2.1.2, 5.0.8
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-BRACEEXPANSION-18512280] in brace-expansion@5.0.5
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > cacache@20.0.3 > glob@13.0.0 > minimatch@10.2.5 > brace-expansion@5.0.5
+  This issue was fixed in versions: 1.1.18, 2.1.4, 3.0.6, 5.0.9
+  Ô£ù Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-16636412] in ip-address@10.1.0
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0
+  This issue was fixed in versions: 10.1.1
+  Ô£ù Server-side Request Forgery (SSRF) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-IPADDRESS-18516623] in ip-address@10.1.0
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > make-fetch-happen@15.0.3 > @npmcli/agent@4.0.0 > socks-proxy-agent@8.0.5 > socks@2.8.7 > ip-address@10.1.0
+  This issue was fixed in versions: 10.3.1
+  Ô£ù Regular Expression Denial of Service (ReDoS) [High Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765511] in picomatch@4.0.3
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3
+  This issue was fixed in versions: 2.3.2, 3.0.2, 4.0.4
+  Ô£ù Prototype Pollution [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-PICOMATCH-15765513] in picomatch@4.0.3
+    introduced by bullmq@5.13.0 > msgpackr@1.11.5 > msgpackr-extract@3.0.3 > node-gyp@12.1.0 > tinyglobby@0.2.15 > picomatch@4.0.3
+  This issue was fixed in versions: 2.3.2, 3.0.2, 4.0.4
+
+
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\modules\workflow-engine-redis\package.json
+Project name:      @medusajs/workflow-engine-redis
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\plugins\draft-order\package.json
+Project name:      @medusajs/draft-order
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 111 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       packages\plugins\loyalty\package.json
+Project name:      @medusajs/loyalty-plugin
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   yarn
+Target file:       my-medusa-store\yarn.lock
+Project name:      my-medusa-store
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   npm
+Target file:       my-medusa-store\apps\backend\package.json
+Project name:      @dtc/backend
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested 20 dependencies for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Tested 43 dependencies for known issues, found 6 issues, 6 vulnerable paths.
+
+
+Issues to fix by upgrading:
+
+  Upgrade next@15.5.21 to next@16.3.0 to fix
+  Ô£ù Cross-site Scripting (XSS) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-16189065] in postcss@8.4.31
+    introduced by next@15.5.21 > postcss@8.4.31
+  Ô£ù Directory Traversal (new) [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18512282] in postcss@8.4.31
+    introduced by next@15.5.21 > postcss@8.4.31
+  Ô£ù Allocation of Resources Without Limits or Throttling [Medium Severity][https://security.snyk.io/vuln/SNYK-JS-NEXT-15674556] in next@15.5.21
+    introduced by next@15.5.21
+  Ô£ù Directory Traversal (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18313036] in postcss@8.4.31
+    introduced by next@15.5.21 > postcss@8.4.31
+  Ô£ù Directory Traversal (new) [High Severity][https://security.snyk.io/vuln/SNYK-JS-POSTCSS-18313038] in postcss@8.4.31
+    introduced by next@15.5.21 > postcss@8.4.31
+  Ô£ù Allocation of Resources Without Limits or Throttling [High Severity][https://security.snyk.io/vuln/SNYK-JS-NEXT-15105315] in next@15.5.21
+    introduced by next@15.5.21
+
+
+
+Organization:      ksant06br
+Package manager:   npm
+Target file:       my-medusa-store\apps\storefront\package.json
+Project name:      @dtc/storefront
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+-------------------------------------------------------
+
+Testing C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa...
+
+Organization:      ksant06br
+Package manager:   npm
+Target file:       my-medusa-store\apps\storefront\.next\package.json
+Project name:      package.json
+Open source:       no
+Project path:      C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa
+Licenses:          enabled
+
+Ô£ö Tested C:\Users\santi\OneDrive\Escritorio\MedusaJs\medusa for known issues, no vulnerable paths found.
+
+Next steps:
+- Run `snyk monitor` to be notified about new related vulnerabilities.
+- Run `snyk test` as part of your CI/test.
+
+
+Tested 70 projects, 15 contained vulnerable paths.
+
+
+
